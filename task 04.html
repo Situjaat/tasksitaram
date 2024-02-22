@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_div {
+            margin: auto;
+            margin-left: 100px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+            /* background-color: lightblue; */
+        }
+
+        nav li {
+            list-style: none;
+            font-weight: bolder;
+        }
+        nav img{
+            width: 4%;
+            margin-right: 80px;
+        }
+
+        .Container {
+            /* border: 1px solid black; */
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: rgb(237, 232, 226);
+            border-radius: 10px;
+        }
+
+        .ipo_div {
+            margin-top: 60px;
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .ipo_div button {
+            background-color: chartreuse;
+            border: none;
+        }
+
+        .second_div {
+            /* border: 1px solid black; */
+            width: 45%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+
+        }
+
+        .second_div img {
+            width: 13%;
+        }
+
+        .second_div div {
+            /* border: 1px solid red; */
+            gap: 10px;
+            text-align: center;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        .keep_div {
+            /* border: 1px solid red; */
+            width: 84%;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .keep1_div {
+            /* border: 1px solid green; */
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(237, 232, 226);
+            border-radius: 10px;
+
+        }
+
+        .keep1_div div {
+            width: 33%;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .keep1_div img {
+            width: 70%;
+            border-radius: 10px;
+        }
+
+        .discover_div {
+            /* border: 1px solid green; */
+            width: 82%;
+            background-color: rgb(202, 226, 202);
+            padding: 15px;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+
+        .discover_div h4,
+        p {
+            text-align: center;
+
+        }
+
+        .cap_div {
+            /* border: 1px solid red; */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 80%;
+            margin: auto;
+        }
+
+        .cap_div div {
+            width: 60%;
+            margin: auto;
+            /* border: 1px solid red; */
+            text-align: center;
+            padding: 15px;
+        }
+
+        .cap_div img {
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        .discover_div button {
+            margin-left: 400px;
+            background-color: rgb(102, 215, 102);
+            border-radius: 2px;
+            border: none;
+        }
+
+        .bottom_div {
+            /* border: 1px solid green; */
+            width: 84%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            background-color: lightgreen;
+            border-radius: 5px;
+        }
+
+        .bot1_div {
+            /* border: 1px solid green; */
+            text-align: center;
+            margin-top: 230px;
+            width: 60%;
+            align-items: center;
+            margin-left: 15px;
+        }
+        .bot1_div button{
+            background-color: white;
+            color: rgb(63, 252, 0);
+            width: 28%;
+            border: none;
+            font-size: larger;
+            border-radius: 5px;
+        }
+        .bot1_div h3{
+            color: white;
+            font-size: xx-large;
+        }
+
+        .bot2_div {
+            /* border: 1px solid red; */
+            width: 60%;
+            padding-top: 10px;
+        }
+
+        .bot2_div img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_div">
+        <nav>
+            <ul>
+                <img src="./groww logo.jpg" alt="">
+                <li>Home</li>
+                <li> About</li>
+                <li> Contact </li>
+                <li>Search
+                    <input type="text" placeholder="type for search....">
+                </li>
+            </ul>
+        </nav>
+        <div class="Container">
+            <div class="ipo_div">
+                <h3>Invest In IPOs</h3>
+                <p>Trusted By Millons of Indians. Start Investing Today </p>
+                <button> GET STARTED</button>
+            </div>
+            <div class="second_div">
+                <div><img src="./mutual fund.jpg" alt="">
+                    <h4>Mutual Funds</h4>
+                </div>
+                <div> <img src="./stock img.png" alt="">
+                    <h4>Stocks</h4>
+                </div>
+                <div><img src="./future img.jpg" alt="">
+                    <h4>Future & options</h4>
+                </div>
+                <div><img src="./us stock img.webp" alt="">
+                    <h4>US Stocks</h4>
+                </div>
+                <div><img src="./ipo img.jpg" alt="">
+                    <h4>IPOs</h4>
+                </div>
+                <div><img src="./f d img.jpg" alt="">
+                    <h4>Fixed Deposits</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="keep_div">
+            <h3>Keep learning. Keep growing.</h3>
+            <div class="keep1_div">
+                <div>
+                    <img src="./pic img.jpg" alt="">
+                    <h5>How to Select/Pick Stocks for Intraday</h5>
+                </div>
+                <div>
+                    <img src="./pic 2 img.jpg" alt="">
+                    <h5>Begainers Guide to Mutual Funds</h5>
+                </div>
+                <div>
+                    <img src="./pic img.jpg" alt="">
+                    <h5>How to Diversify in the time of Market Volatitity</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="discover_div">
+            <h4>Discover Mutual Funds </h4>
+            <p>Search Mutual Funds, Amcs etc.</p>
+            <div class="cap_div">
+                <div>
+                    <img src="./high 01.jpg" alt="">
+                    <h6>High Return</h6>
+                </div>
+                <div>
+                    <img src="./mid 05.jpg" alt="">
+                    <h6>Sip with 500</h6>
+                </div>
+                <div>
+                    <img src="./high 01.jpg" alt="">
+                    <h6>Tax Savings</h6>
+                </div>
+                <div>
+                    <img src="./tax 03.jpg" alt="">
+                    <h6>Large Cap</h6>
+                </div>
+                <div>
+                    <img src="./mid 05.jpg" alt="">
+                    <h6>Mid Cap</h6>
+                </div>
+                <div>
+                    <img src="./tax 03.jpg" alt="">
+                    <h6>Small Cap</h6>
+                </div>
+
+            </div>
+            <button> Explore all Mutual Funds</button>
+        </div>
+        <div class="bottom_div">
+            <div class="bot1_div">
+                <h3> We are with you at every step</h3>
+                <p>For any query you have, find the answer quickly on our help & Support. Need a little bit more help?
+                    We're happy talk via call or chat.</p>
+                <button>Get In Touch</button>
+            </div>
+            <div class="bot2_div">
+                <img src="./phone new.webp" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
