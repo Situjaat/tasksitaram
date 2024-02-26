@@ -15,16 +15,34 @@
             display: flex;
             justify-content: space-evenly;
             width: 80%;
-            /* background-color: lightblue; */
+            /* background-color: rgb(205, 212, 214); */
+            border-radius: 5px;
+
         }
 
         nav li {
             list-style: none;
             font-weight: bolder;
         }
+        nav li:hover{
+            cursor: pointer;
+            color: blue;
+        }
         nav img{
-            width: 4%;
+            width: 3%;
             margin-right: 80px;
+            background-color: rgb(205, 212, 214);
+        }
+        nav li input{
+            border: none;
+        }
+        .menu{
+
+            display: none;
+        }
+        .menu span{
+            width: 15%;
+            margin-top: 7px;
         }
 
         .Container {
@@ -33,20 +51,29 @@
             display: flex;
             justify-content: space-around;
             padding: 20px;
-            background-color: rgb(237, 232, 226);
+            /* background-image: url(./bgc\ 4.jpg); */
             border-radius: 10px;
         }
 
         .ipo_div {
             margin-top: 60px;
-            background-color: aliceblue;
+            /* background-color: aliceblue; */
             padding: 20px;
             border-radius: 10px;
+            /* background-image: url(./bgc\ 4.jpg); */
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         }
 
         .ipo_div button {
             background-color: chartreuse;
             border: none;
+            padding: 7PX;
+            border-radius: 3px;
+        }
+        .ipo_div button:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+
         }
 
         .second_div {
@@ -65,11 +92,18 @@
         .second_div div {
             /* border: 1px solid red; */
             gap: 10px;
-            text-align: center;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            text-align: center; 
             border-radius: 15px;
             padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            transition-property: all 2s ease-in-out;
         }
+        .second_div div:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            background-color: darkorchid;
+        }
+
 
         .keep_div {
             /* border: 1px solid red; */
@@ -85,7 +119,7 @@
             width: 100%;
             display: flex;
             justify-content: space-around;
-            background-color: rgb(237, 232, 226);
+            background-color: rgb(226, 233, 237);
             border-radius: 10px;
 
         }
@@ -105,16 +139,19 @@
         .discover_div {
             /* border: 1px solid green; */
             width: 82%;
-            background-color: rgb(202, 226, 202);
+            background-color: rgb(202, 204, 226);
             padding: 15px;
             border-radius: 15px;
             margin-top: 15px;
+            text-align: center;
         }
 
-        .discover_div h4,
-        p {
-            text-align: center;
-
+        .discover_div p{
+        margin-top: -20px;
+        }
+        .discover_div button {
+            padding: 8px;
+            border-radius: 10px;
         }
 
         .cap_div {
@@ -139,10 +176,13 @@
         }
 
         .discover_div button {
-            margin-left: 400px;
             background-color: rgb(102, 215, 102);
             border-radius: 2px;
             border: none;
+        }
+        .discover_div button:hover{
+            cursor: pointer;
+            transform: scale(1.1);
         }
 
         .bottom_div {
@@ -170,6 +210,11 @@
             border: none;
             font-size: larger;
             border-radius: 5px;
+            padding: 8px;
+        }
+        .bot1_div button:hover{
+            cursor: pointer;
+            transform: scale(1.1);
         }
         .bot1_div h3{
             color: white;
@@ -185,6 +230,297 @@
         .bot2_div img {
             width: 100%;
         }
+        footer{
+            text-align: center;
+            width: 84%;
+            background-color: beige;
+            border-radius: 5px;
+        }
+        .footer1_div{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            
+            
+        }
+        .footer1_div div{
+            padding: 10px;
+            background-color: lightblue;
+            border-radius: 8px;
+            margin: 7px;
+        }
+        .h2 h2{
+            margin-bottom: 0px;
+            color: sienna
+            
+        }
+     .footer1_div button{
+        background-color: coral;
+        border: none;
+        border-radius: 5px;
+        padding: 7px;
+     }
+     .footer1_div button:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+     }
+     hr{
+        width: 30%;
+     }
+
+
+
+
+
+
+     @media screen and (min-width:400px) and (max-width:700px){
+
+        .main_div {
+            margin: auto;
+            margin-left: 100px;
+        }
+
+       
+        nav li {
+            list-style: none;
+            font-weight: bolder;
+            display: none;
+            
+        }
+        nav li:hover{
+            cursor: pointer;
+            color: blue;
+        }
+        nav img{
+            width: 6%;
+            background-color: rgb(205, 212, 214);
+        }
+        nav li input{
+            border: none;
+        }
+        .menu{
+
+            display: flex;
+            font-weight: bolder;
+        
+        }
+
+        .Container {
+            /* border: 1px solid black; */
+            width: 80%;
+            /* display: flex;
+            justify-content: space-around; */
+            padding: 20px;
+            display: block;
+            /* background-image: url(./bgc\ 4.jpg); */
+            border-radius: 10px;
+            text-align: center;
+            margin-top: -60px;
+        }
+
+        .ipo_div {
+            /* margin-top: 250px; */
+            border: 1px solid black;
+            box-shadow: none;
+            
+            
+            
+        }
+
+        .ipo_div button {
+            background-color: chartreuse;
+            border: none;
+            padding: 7PX;
+            border-radius: 3px;
+        }
+
+        .second_div {
+            /* border: 1px solid black; */
+            width: 45%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+            margin-left: 28%;
+            margin-top: 10px;
+
+        }
+
+        .second_div img {
+            width: 13%;
+        }
+
+        .second_div div {
+            /* border: 1px solid red; */
+            gap: 10px;
+            text-align: center; 
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+
+        .keep_div {
+            /* border: 1px solid red; */
+            width: 84%;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .keep1_div {
+            /* border: 1px solid green; */
+            width: 100%;
+            
+            /* justify-content: space-around; */
+            background-color: rgb(226, 233, 237);
+            border-radius: 10px;
+            display: block;
+            
+
+        }
+
+        .keep1_div div {
+            width: 33%;
+            text-align: center;
+            padding: 20px;
+            margin-left: 32%;
+
+        }
+
+        .keep1_div img {
+            width: 70%;
+            border-radius: 10px;
+        }
+
+        .discover_div {
+            /* border: 1px solid green; */
+            width: 79%;
+            background-color: rgb(202, 204, 226);
+            padding: 15px;
+            border-radius: 15px;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .discover_div p{
+        margin-top: -20px;
+        }
+        .discover_div button {
+            padding: 8px;
+            border-radius: 10px;
+        }
+
+        .cap_div {
+            /* border: 1px solid red; */
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 80%;
+            margin: auto;
+        }
+
+        .cap_div div {
+            width: 60%;
+            margin: auto;
+            /* border: 1px solid red; */
+            text-align: center;
+            padding: 15px;
+        }
+
+        .cap_div img {
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        .discover_div button {
+            background-color: rgb(102, 215, 102);
+            border-radius: 2px;
+            border: none;
+        }
+
+        .bottom_div {
+            /* border: 1px solid green; */
+            width: 84%;
+           display: block;
+            margin-top: -100px;
+            background-color: lightgreen;
+            border-radius: 5px;
+            margin-top: -200px;
+        }
+
+        .bot1_div {
+            /* border: 1px solid green; */
+            text-align: center;
+            /* margin-top: 230px; */
+            width: 60%;
+            
+            margin-left: 23%;
+        }
+        .bot1_div button{
+            background-color: white;
+            color: rgb(63, 252, 0);
+            width: 80%;
+            border: none;
+            /* font-size: larger; */
+            border-radius: 5px;
+            padding: 8px;
+        }
+        .bot1_div h3{
+            color: white;
+            /* font-size: xx-large; */
+            margin-bottom: -10px;
+        }
+
+        .bot2_div {
+            /* border: 1px solid red; */
+            width: 60%;
+            padding-top: 10px;
+            margin-left: 23%;
+        }
+
+        .bot2_div img {
+            width: 100%;
+        }
+        footer{
+            text-align: center;
+            width: 84%;
+            background-color: beige;
+            border-radius: 5px;
+        }
+        .footer1_div{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            
+            
+        }
+        .footer1_div div{
+            padding: 10px;
+            background-color: lightblue;
+            border-radius: 8px;
+            margin: 7px;
+        }
+        .h2 h2{
+            margin-bottom: 0px;
+            color: sienna
+            
+        }
+     .footer1_div button{
+        background-color: coral;
+        border: none;
+        border-radius: 5px;
+        padding: 7px;
+     }
+     hr{
+        width: 30%;
+     }
+
+
+
+     }
+        
+    
+        
     </style>
 </head>
 
@@ -192,15 +528,19 @@
     <div class="main_div">
         <nav>
             <ul>
-                <img src="./groww logo.jpg" alt="">
+                <img src="./groww logo.jpg" alt=""> 
                 <li>Home</li>
                 <li> About</li>
                 <li> Contact </li>
                 <li>Search
-                    <input type="text" placeholder="type for search....">
+                    <input type="text" placeholder="............">
                 </li>
-            </ul>
+            
+            <div class="menu">
+                <span>&#9776;</span>
+            </div> </ul>
         </nav>
+       
         <div class="Container">
             <div class="ipo_div">
                 <h3>Invest In IPOs</h3>
@@ -252,27 +592,27 @@
             <p>Search Mutual Funds, Amcs etc.</p>
             <div class="cap_div">
                 <div>
-                    <img src="./high 01.jpg" alt="">
+                    <img src="./11.jpg" alt="">
                     <h6>High Return</h6>
                 </div>
                 <div>
-                    <img src="./mid 05.jpg" alt="">
+                    <img src="./22.avif" alt="">
                     <h6>Sip with 500</h6>
                 </div>
                 <div>
-                    <img src="./high 01.jpg" alt="">
+                    <img src="./33.jpg" alt="">
                     <h6>Tax Savings</h6>
                 </div>
                 <div>
-                    <img src="./tax 03.jpg" alt="">
+                    <img src="./44.jpg" alt="">
                     <h6>Large Cap</h6>
                 </div>
                 <div>
-                    <img src="./mid 05.jpg" alt="">
+                    <img src="./55.avif" alt="">
                     <h6>Mid Cap</h6>
                 </div>
                 <div>
-                    <img src="./tax 03.jpg" alt="">
+                    <img src="./66.jpg" alt="">
                     <h6>Small Cap</h6>
                 </div>
 
@@ -290,6 +630,32 @@
                 <img src="./phone new.webp" alt="">
             </div>
         </div>
+
+        <footer>
+            <div class="h2">
+            <h2>Contact Us</h2>
+           <b> Any Queries Please Contact 24x7 Hours </b>
+            <hr>
+            </div>
+            <div class="footer1_div">
+                <div>
+                    <h3>Customer Care</h3>
+                    <p>Our Support team is special to give you response.</p>
+                    <button>Submit a Request</button>
+                </div>
+                <div>
+                    <h3>Write Us</h3>
+                    <p>You can write us if you have any queries please write.</p>
+                    <button>Write</button>
+                </div>
+                <div>
+                    <h3>Sales and Marketing</h3>
+                    <p>Get in touch with our sales and marketing team.</p>
+                    <button>Contact sales</button>
+                </div>
+
+            </div>
+        </footer>
     </div>
 </body>
 
